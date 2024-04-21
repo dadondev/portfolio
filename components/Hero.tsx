@@ -54,7 +54,13 @@ const Hero = () => {
         </article>
       </div>
       <article className="px-[26px] flex flex-wrap gap-[10px] md:px-0">
+        <Techno url="/html.svg" />
+        <Techno url="/css.svg" />
+        <Techno url="/boot.svg" />
+        <Techno url="/tailwind.svg" />
+        <Techno url="/ks.svg" />
         <Techno url="/react.svg" />
+        <Techno url="/nextjs.svg" />
       </article>
     </div>
   );
